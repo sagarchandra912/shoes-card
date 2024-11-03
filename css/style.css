@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+
+
+}
+
+/* card */
+
+.card {
+    background-color: #ffffff;
+    margin: 20px 0px;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+
+.card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #333333;
+
+}
+
+
+.card_1 h2 {
+    color: red;
+}
+
+.card_2 h2 {
+    color: blue;
+}
+
+.card_3 h2 {
+    color: green;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card a:hover {
+    opacity: 0.5;
+
+}
+
+
+/* Link Color */
+.card_1 a {
+    background-color: red;
+}
+
+.card_2 a {
+    background-color: blue;
+}
+
+.card_3 a {
+    background-color: green;
+}
+
+.card_1 {
+    /* color: #ffffff;
+    background-image: url(../images/casual.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px; */
+
+    background: #fff url(../images/casual.png) no-repeat right/200px;
+}
+
+.card_2 {
+    /* color: #ffffff;
+    background-image: url(../images/casual.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px; */
+
+    background: #fff url(../images/sporty.png) no-repeat center right/150px;
+}
+
+.card_3 {
+    /* color: #ffffff;
+    background-image: url(../images/casual.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px; */
+
+    background: #fff url(../images/formal.png) no-repeat center right;
+    background-size: 200px;
+}
